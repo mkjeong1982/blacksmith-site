@@ -85,7 +85,7 @@
   .video.soon p b { display: block; font-size: 2.2em; line-height: 1.1; }
   .shots-empty { text-align: center; color: var(--ink-soft); }
   .video iframe { width: 100%; height: 100%; display: block; border: 0; }
-  .video.clip { width: min(360px, 100%); margin-inline: auto; aspect-ratio: 720 / 1280; }
+  .video.clip { width: 100%; aspect-ratio: 1280 / 720; } /* (WP185: the landscape promo) */
   .video video { width: 100%; height: 100%; display: block; object-fit: cover; background: #000; }
 
   h2 { margin: 56px 0 18px; text-align: center; font-size: clamp(20px, 3vw, 26px); color: var(--gold); text-wrap: balance; letter-spacing: .02em; }
@@ -178,11 +178,11 @@
   <div class="features">
     <div class="feature"><b data-i18n="f1t">망해 가던 대장간 재건 프로젝트</b><p data-i18n="f1">대장간을 다시 일으켜 세우고 전설의 대장장이에 도전하세요</p></div>
     <div class="feature"><b data-i18n="f2t">전설의 검 10강 강화!!</b><p data-i18n="f2">성공하면 번쩍! 실패해도 지켜 낼 방법이 있어요</p></div>
-    <div class="feature"><b data-i18n="f3t">대장간을 업그레이드시켜 다양한 장비를 만드세요</b><p data-i18n="f3">대장간이 발전할수록 기사님, 공주님도 단골이 돼요!</p></div>
+    <div class="feature"><b data-i18n="f3t">꼬마부터 공주님까지, 별별 의뢰가 와요!</b><p data-i18n="f3">기한 안에 만들어 주면 보너스 골드에 선물까지!</p></div>
     <div class="feature"><b data-i18n="f4t">만든 장비를 판매하거나 모험가에게 장착시켜요</b><p data-i18n="f4">팔아서 돈을 모으고, 장착시켜 더 깊은 던전으로!</p></div>
     <div class="feature"><b data-i18n="f5t">장비를 장착한 모험가를 던전에 보내 더 좋은 재료를 구하세요</b><p data-i18n="f5">던전으로 향하고, 싸우고, 재료를 캐는 모습을 실시간으로 체크할 수 있어요</p></div>
     <div class="feature"><b data-i18n="f6t">숙소를 업그레이드시켜 더 많은 모험가와 함께하세요</b><p data-i18n="f6"></p></div>
-    <div class="feature"><b data-i18n="f7t">마을 뒷산부터 하늘 유적까지</b><p data-i18n="f7">험난한 탐험지일수록 귀한 재료가 나와요</p></div>
+    <div class="feature"><b data-i18n="f7t">대장간이 커지면 내 집도 좋아져요!</b><p data-i18n="f7">쓰러져 가던 폐가가 아늑한 고급 집으로</p></div>
     <div class="feature"><b data-i18n="f8t">전설의 대장장이에 도전!</b><p data-i18n="f8">레어 레시피를 모아 전설의 장비를 만드세요</p></div>
   </div>
 
@@ -211,19 +211,19 @@
       tagline: "망해 가던 대장간 재건 프로젝트", sub: "장비를 만들어 팔고, 모험가를 보내고, 대장간을 다시 일으켜 보세요", soonNote: "곧 출시!", soon: "곧 출시돼요! 조금만 기다려 주세요 🔨",
       appStore: "App Store에서 다운로드", googlePlay: "Google Play에서 다운로드", videoSoon: "플레이 영상 준비 중이에요",
       aboutTitle: "이런 게임이에요",
-      f1t: "망해 가던 대장간 재건 프로젝트", f1: "대장간을 다시 일으켜 세우고 전설의 대장장이에 도전하세요", f2t: "전설의 검 10강 강화!!", f2: "성공하면 번쩍! 실패해도 지켜 낼 방법이 있어요", f3t: "대장간을 업그레이드시켜 다양한 장비를 만드세요", f3: "대장간이 발전할수록 기사님, 공주님도 단골이 돼요!", f4t: "만든 장비를 판매하거나 모험가에게 장착시켜요", f4: "팔아서 돈을 모으고, 장착시켜 더 깊은 던전으로!", f5t: "장비를 장착한 모험가를 던전에 보내 더 좋은 재료를 구하세요", f5: "던전으로 향하고, 싸우고, 재료를 캐는 모습을 실시간으로 체크할 수 있어요", f6t: "숙소를 업그레이드시켜 더 많은 모험가와 함께하세요", f6: "", f7t: "마을 뒷산부터 하늘 유적까지", f7: "험난한 탐험지일수록 귀한 재료가 나와요", f8t: "전설의 대장장이에 도전!", f8: "레어 레시피를 모아 전설의 장비를 만드세요",
+      f1t: "망해 가던 대장간 재건 프로젝트", f1: "대장간을 다시 일으켜 세우고 전설의 대장장이에 도전하세요", f2t: "전설의 검 10강 강화!!", f2: "성공하면 번쩍! 실패해도 지켜 낼 방법이 있어요", f3t: "꼬마부터 공주님까지, 별별 의뢰가 와요!", f3: "기한 안에 만들어 주면 보너스 골드에 선물까지!", f4t: "만든 장비를 판매하거나 모험가에게 장착시켜요", f4: "팔아서 돈을 모으고, 장착시켜 더 깊은 던전으로!", f5t: "장비를 장착한 모험가를 던전에 보내 더 좋은 재료를 구하세요", f5: "던전으로 향하고, 싸우고, 재료를 캐는 모습을 실시간으로 체크할 수 있어요", f6t: "숙소를 업그레이드시켜 더 많은 모험가와 함께하세요", f6: "", f7t: "대장간이 커지면 내 집도 좋아져요!", f7: "쓰러져 가던 폐가가 아늑한 고급 집으로", f8t: "전설의 대장장이에 도전!", f8: "레어 레시피를 모아 전설의 장비를 만드세요",
       shotsTitle: "스크린샷", shotsSoon: "스크린샷 준비 중이에요", privacy: "개인정보처리방침", terms: "이용약관", support: "고객 지원", deleteAccount: "계정 삭제" },
     en: { title: "Blacksmith Idle: Adventure Age", logoAlt: "Blacksmith Idle: Adventure Age",
       tagline: "Rebuild a forge that was going under!", sub: "Craft and sell gear, send out heroes, and bring the old forge back to life", soonNote: "Coming soon!", soon: "Coming soon — hang tight! 🔨",
       appStore: "Download on the App Store", googlePlay: "Get it on Google Play", videoSoon: "Gameplay video coming soon",
       aboutTitle: "What's inside",
-      f1t: "Rebuild a failing forge", f1: "Rebuild your forge and become a legendary blacksmith", f2t: "Forging a legendary +10 sword!!", f2: "Success sparkles — and fails can be saved", f3t: "Upgrade your forge to craft all kinds of gear", f3: "Grow your forge, and knights and princesses become regulars!", f4t: "Sell what you make, or equip your heroes", f4: "Sell for gold, or equip them for deeper dungeons!", f5t: "Send geared-up heroes into dungeons for better materials", f5: "Watch them head into dungeons, fight and mine — live!", f6t: "Upgrade the lodge and team up with more heroes", f6: "", f7t: "From Back Hill to the Sky Ruins", f7: "The tougher the land, the rarer the loot", f8t: "Become a legendary blacksmith!", f8: "Collect rare recipes and forge legendary gear",
+      f1t: "Rebuild a failing forge", f1: "Rebuild your forge and become a legendary blacksmith", f2t: "Forging a legendary +10 sword!!", f2: "Success sparkles — and fails can be saved", f3t: "From kids to princesses — all kinds of requests!", f3: "Make it in time for bonus gold — and a gift!", f4t: "Sell what you make, or equip your heroes", f4: "Sell for gold, or equip them for deeper dungeons!", f5t: "Send geared-up heroes into dungeons for better materials", f5: "Watch them head into dungeons, fight and mine — live!", f6t: "Upgrade the lodge and team up with more heroes", f6: "", f7t: "A bigger forge, a nicer home!", f7: "From a run-down shack to a cozy fine house", f8t: "Become a legendary blacksmith!", f8: "Collect rare recipes and forge legendary gear",
       shotsTitle: "Screenshots", shotsSoon: "Screenshots coming soon", privacy: "Privacy Policy", terms: "Terms of Service", support: "Support", deleteAccount: "Delete Account" },
     ja: { title: "鍛冶屋育成：冒険の時代", logoAlt: "鍛冶屋育成：冒険の時代",
       tagline: "つぶれかけ鍛冶屋の再建物語", sub: "装備を作って売り、冒険者を送り出して、鍛冶屋をもう一度立て直そう", soonNote: "近日公開！", soon: "近日公開！もう少し待っててね 🔨",
       appStore: "App Storeからダウンロード", googlePlay: "Google Playで手に入れよう", videoSoon: "プレイ動画は準備中です",
       aboutTitle: "こんなゲームです",
-      f1t: "つぶれかけ鍛冶屋の再建物語", f1: "鍛冶屋を立て直して、伝説の鍛冶屋をめざそう", f2t: "伝説の剣、＋10強化！！", f2: "成功したらピカッ！失敗しても守る手あり", f3t: "鍛冶屋をアップグレードして、いろんな装備を作ろう", f3: "鍛冶屋が育つほど、騎士もお姫さまも常連に！", f4t: "作った装備は売るか、冒険者に装備させよう", f4: "売ってお金を貯めるか、装備させてもっと深いダンジョンへ！", f5t: "装備した冒険者をダンジョンに送り、もっといい素材を集めよう", f5: "ダンジョンへ向かい、戦い、素材を掘る姿をリアルタイムでチェック！", f6t: "宿屋をアップグレードして、もっと多くの冒険者と一緒に！", f6: "", f7t: "裏山から天空の遺跡まで", f7: "険しい探検地ほど貴重な素材が！", f8t: "伝説の鍛冶屋をめざせ！", f8: "レアレシピを集めて伝説の装備を作ろう！",
+      f1t: "つぶれかけ鍛冶屋の再建物語", f1: "鍛冶屋を立て直して、伝説の鍛冶屋をめざそう", f2t: "伝説の剣、＋10強化！！", f2: "成功したらピカッ！失敗しても守る手あり", f3t: "子どもからお姫さままで、いろんな依頼が！", f3: "期限内に作れば、ボーナスゴールドにプレゼントまで！", f4t: "作った装備は売るか、冒険者に装備させよう", f4: "売ってお金を貯めるか、装備させてもっと深いダンジョンへ！", f5t: "装備した冒険者をダンジョンに送り、もっといい素材を集めよう", f5: "ダンジョンへ向かい、戦い、素材を掘る姿をリアルタイムでチェック！", f6t: "宿屋をアップグレードして、もっと多くの冒険者と一緒に！", f6: "", f7t: "鍛冶屋が育てば、わが家もグレードアップ！", f7: "おんぼろ小屋から、居心地のいい立派な家へ", f8t: "伝説の鍛冶屋をめざせ！", f8: "レアレシピを集めて伝説の装備を作ろう！",
       shotsTitle: "スクリーンショット", shotsSoon: "スクリーンショットは準備中です", privacy: "プライバシーポリシー", terms: "利用規約", support: "サポート", deleteAccount: "アカウント削除" }
   };
   const pick = () => {
