@@ -6,16 +6,16 @@
       "at": "2026-11-12",
       "pin": true,
       "title": {
-        "ko": "작위가 생겼어요! 그리고 대련(PvP)도 곧 열려요",
-        "en": "Titles are here! And Duels (PvP) are coming soon",
-        "ja": "爵位が登場！そして対戦(PvP)ももうすぐ",
-        "zh": "爵位登場！比武(PvP)也即將開放"
+        "ko": "작위와 대련(PvP)이 생겼어요!",
+        "en": "Titles and Duels (PvP) are here!",
+        "ja": "爵位と対戦(PvP)が登場！",
+        "zh": "爵位與比武(PvP)登場！"
       },
       "body": {
-        "ko": "대장장이님, 안녕하세요!\n\n▶ 작위\n· 대장장이 랭킹 순위에 따라 남작부터 대공까지 작위를 받아요. 1~3위는 특별 메달!\n· 작위가 오르면 판매 보너스·강화 확률 특전이 붙어요.\n· 모험팀은 기사단, 모험가는 기사 작위를 받아 능력치·행운·기운 회복 특전을 받아요.\n· 작위가 없어도 하급·중급·상급 등급으로 다음 목표를 알려 드려요.\n\n▶ 대련 (PvP) — 곧 오픈!\n· 숙소 Lv.4부터, 모험가 4명을 대련장에 배치해 다른 대장장이의 팀과 겨뤄요.\n· 내가 만든 장비의 강화와 레어 장비 특수효과가 승부를 흔들어요!\n· 점수·전적·대련 랭킹도 준비 중이에요.\n\n오늘도 열심히 두드려 봐요~",
-        "en": "Hello, Smith!\n\n▶ Titles\n· Earn titles from Baron up to Archduke by your smith ranking. Top 3 get special medals!\n· Higher titles bring sale bonuses and better enhance odds.\n· Parties earn Order titles and adventurers earn Knight titles, with stat, luck and stamina perks.\n· No title yet? Grades show you the next goal.\n\n▶ Duels (PvP) — opening soon!\n· From Lodge Lv.4, place 4 adventurers in the arena and face other smiths' teams.\n· Your enhances and rare gear effects can turn the fight!\n· Scores, records and duel rankings are on the way.\n\nKeep hammering!",
-        "ja": "鍛冶屋さん、こんにちは！\n\n▶ 爵位\n・鍛冶屋ランキングの順位で男爵から大公まで爵位がもらえるよ。1〜3位は特別なメダル！\n・爵位が上がると販売ボーナス・強化確率の特典つき。\n・冒険チームは騎士団、冒険者は騎士の爵位で能力値・運・気力回復の特典！\n・爵位がなくても下級・中級・上級で次の目標がわかるよ。\n\n▶ 対戦(PvP) — まもなくオープン！\n・宿舎Lv.4から、冒険者4人を配置して他の鍛冶屋のチームと勝負！\n・強化とレア装備の特殊効果が勝負を揺さぶるよ！\n・スコア・戦績・対戦ランキングも準備中。\n\n今日もガンガン叩こう〜",
-        "zh": "鐵匠您好！\n\n▶ 爵位\n・依鐵匠排行榜名次，從男爵到大公都能獲得爵位。前三名有特別勳章！\n・爵位提升可獲得販售加成與強化機率特權。\n・冒險隊獲得騎士團、冒險者獲得騎士爵位，享有能力值、幸運與體力恢復特權。\n・沒有爵位也會以下級・中級・上級告訴你下一個目標。\n\n▶ 比武(PvP) — 即將開放！\n・旅舍 Lv.4 起，派出 4 名冒險者上比武場，和其他鐵匠的隊伍一較高下。\n・強化與稀有裝備特效能扭轉戰局！\n・分數、戰績與比武排行榜也在準備中。\n\n今天也努力敲打吧～"
+        "ko": "대장장이님, 안녕하세요!\n\n▶ 작위\n· 대장장이 랭킹 순위에 따라 남작부터 대공까지 작위를 받아요. 1~3위는 특별 메달!\n· 작위가 오르면 판매 보너스·강화 확률 특전이 붙어요.\n· 모험팀은 기사단, 모험가는 기사 작위를 받아 능력치·행운·기운 회복 특전을 받아요.\n· 작위가 없어도 하급·중급·상급 등급으로 다음 목표를 알려 드려요.\n\n▶ 대련 (PvP)\n· 숙소 Lv.4부터, 모험가 4명을 대련장에 배치해 다른 대장장이의 팀과 겨뤄요.\n· 내가 만든 장비의 강화와 레어 장비 특수효과가 승부를 흔들어요!\n· 이기면 점수가 오르고, 전적과 대련 랭킹으로 실력을 겨뤄요!\n\n오늘도 열심히 두드려 봐요~",
+        "en": "Hello, Smith!\n\n▶ Titles\n· Earn titles from Baron up to Archduke by your smith ranking. Top 3 get special medals!\n· Higher titles bring sale bonuses and better enhance odds.\n· Parties earn Order titles and adventurers earn Knight titles, with stat, luck and stamina perks.\n· No title yet? Grades show you the next goal.\n\n▶ Duels (PvP)\n· From Lodge Lv.4, place 4 adventurers in the arena and face other smiths' teams.\n· Your enhances and rare gear effects can turn the fight!\n· Win to raise your score and climb the duel rankings!\n\nKeep hammering!",
+        "ja": "鍛冶屋さん、こんにちは！\n\n▶ 爵位\n・鍛冶屋ランキングの順位で男爵から大公まで爵位がもらえるよ。1〜3位は特別なメダル！\n・爵位が上がると販売ボーナス・強化確率の特典つき。\n・冒険チームは騎士団、冒険者は騎士の爵位で能力値・運・気力回復の特典！\n・爵位がなくても下級・中級・上級で次の目標がわかるよ。\n\n▶ 対戦(PvP)\n・宿舎Lv.4から、冒険者4人を配置して他の鍛冶屋のチームと勝負！\n・強化とレア装備の特殊効果が勝負を揺さぶるよ！\n・勝てばスコアアップ、戦績と対戦ランキングで腕比べしよう！\n\n今日もガンガン叩こう〜",
+        "zh": "鐵匠您好！\n\n▶ 爵位\n・依鐵匠排行榜名次，從男爵到大公都能獲得爵位。前三名有特別勳章！\n・爵位提升可獲得販售加成與強化機率特權。\n・冒險隊獲得騎士團、冒險者獲得騎士爵位，享有能力值、幸運與體力恢復特權。\n・沒有爵位也會以下級・中級・上級告訴你下一個目標。\n\n▶ 比武(PvP)\n・旅舍 Lv.4 起，派出 4 名冒險者上比武場，和其他鐵匠的隊伍一較高下。\n・強化與稀有裝備特效能扭轉戰局！\n・獲勝就能提升分數，用戰績與比武排行榜一較高下！\n\n今天也努力敲打吧～"
       }
     },
     {
