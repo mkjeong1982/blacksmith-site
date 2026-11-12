@@ -144,6 +144,7 @@
   <button type="button" data-lang="ko">한국어</button>
   <button type="button" data-lang="en">English</button>
   <button type="button" data-lang="ja">日本語</button>
+  <button type="button" data-lang="zh">繁體中文</button>
 </nav>
 <main>
   <section class="hero">
@@ -222,19 +223,25 @@
       appStore: "App Storeからダウンロード", googlePlay: "Google Playで手に入れよう", videoSoon: "プレイ動画は準備中です",
       aboutTitle: "こんなゲームです",
       f1t: "つぶれかけ鍛冶屋の再建物語", f1: "鍛冶屋を立て直して、伝説の鍛冶屋をめざそう", f2t: "伝説の剣、＋10強化！！", f2: "成功したらピカッ！失敗しても守る手あり", f3t: "冒険者チームでほかの鍛冶屋と対戦！", f3: "強化した装備とレア特殊効果で勝負をひっくり返そう", f4t: "子どもからお姫さままで、いろんな依頼が！", f4: "期限内に作れば、ボーナスゴールドにプレゼントまで！", f5t: "作った装備は売るか、冒険者に装備させよう", f5: "売ってお金を貯めるか、装備させてもっと深いダンジョンへ！", f6t: "装備した冒険者をダンジョンに送り、もっといい素材を集めよう", f6: "ダンジョンへ向かい、戦い、素材を掘る姿をリアルタイムでチェック！", f7t: "鍛冶屋が育てば、わが家もグレードアップ！", f7: "おんぼろ小屋から、居心地のいい立派な家へ", f8t: "ランキングで男爵から大公まで！", f8: "爵位がつくと販売・強化の特典つき",
-      shotsTitle: "スクリーンショット", shotsSoon: "スクリーンショットは準備中です", privacy: "プライバシーポリシー", terms: "利用規約", support: "サポート", deleteAccount: "アカウント削除" }
+      shotsTitle: "スクリーンショット", shotsSoon: "スクリーンショットは準備中です", privacy: "プライバシーポリシー", terms: "利用規約", support: "サポート", deleteAccount: "アカウント削除" },
+    zh: { title: "鐵匠養成記：冒險時代", logoAlt: "鐵匠養成記：冒險時代",
+      tagline: "快倒閉鐵匠鋪的重建計畫", sub: "打造裝備來販售、派出冒險者，讓老鐵匠鋪重新振作起來", soonNote: "即將推出！", soon: "即將推出！請再稍等一下 🔨",
+      appStore: "在 App Store 下載", googlePlay: "在 Google Play 下載", videoSoon: "遊戲影片準備中",
+      aboutTitle: "遊戲介紹",
+      f1t: "快倒閉鐵匠鋪的重建計畫", f1: "重新振興鐵匠鋪，挑戰成為傳奇鐵匠", f2t: "傳說之劍 +10 強化！！", f2: "成功就閃閃發光！失敗也有辦法守住", f3t: "用冒險者隊伍和其他鐵匠對戰！", f3: "強化裝備加上稀有特效，逆轉戰局", f4t: "從小朋友到公主，各種委託找上門！", f4: "趕在期限內完成，讓客人超開心！", f5t: "打造的裝備可以賣掉，也能給冒險者裝上", f5: "賣掉存金幣，或裝上去闖更深的地城！", f6t: "派裝備好的冒險者進地城，找更好的素材", f6: "前往地城、戰鬥、挖素材的樣子都能即時看到！", f7t: "鐵匠鋪變大，我家也升級！", f7: "從破破爛爛的廢屋變成溫馨的豪宅", f8t: "依排名從男爵晉升到大公！", f8: "獲得爵位就有販售與強化特權",
+      shotsTitle: "遊戲截圖", shotsSoon: "截圖準備中", privacy: "隱私權政策", terms: "服務條款", support: "客服支援", deleteAccount: "刪除帳號" }
   };
   const pick = () => {
     let saved = null;
     try { saved = localStorage.getItem("blacksmith.site.lang"); } catch (e) {}
     if (saved && T[saved]) return saved;
     const nav = (navigator.language || "en").toLowerCase();
-    return nav.startsWith("ko") ? "ko" : nav.startsWith("ja") ? "ja" : "en";
+    return nav.startsWith("ko") ? "ko" : nav.startsWith("ja") ? "ja" : nav.startsWith("zh") ? "zh" : "en";
   };
   // Screenshots per language (media/shots/<lang>/01.jpg …). 0 = the "coming soon" line.
-  const SHOT_COUNT = { ko: 8, en: 8, ja: 8 };
+  const SHOT_COUNT = { ko: 8, en: 8, ja: 8, zh: 8 };
   // YouTube ids per language, if the video goes there ("" = the site's own mp4: media/video/<lang>.mp4 + .jpg).
-  const YT = { ko: "ELhP1PyZnDM", en: "b0DW8QoD9Jc", ja: "v5pdhGGYp0Y" };
+  const YT = { ko: "ELhP1PyZnDM", en: "b0DW8QoD9Jc", ja: "v5pdhGGYp0Y", zh: "b0DW8QoD9Jc" }; // (zh: the English video for now)
   let currentLang = "ko";
   const apply = (lang) => {
     currentLang = lang;
