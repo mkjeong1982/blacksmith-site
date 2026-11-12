@@ -241,7 +241,7 @@
   // Screenshots per language (media/shots/<lang>/01.jpg …). 0 = the "coming soon" line.
   const SHOT_COUNT = { ko: 8, en: 8, ja: 8, zh: 8 };
   // YouTube ids per language, if the video goes there ("" = the site's own mp4: media/video/<lang>.mp4 + .jpg).
-  const YT = { ko: "ELhP1PyZnDM", en: "b0DW8QoD9Jc", ja: "v5pdhGGYp0Y", zh: "b0DW8QoD9Jc" }; // (zh: the English video for now)
+  const YT = { ko: "ELhP1PyZnDM", en: "b0DW8QoD9Jc", ja: "v5pdhGGYp0Y", zh: "" }; // (zh: the site's own mp4 — WP294 대만판)
   let currentLang = "ko";
   const apply = (lang) => {
     currentLang = lang;
