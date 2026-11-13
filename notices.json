@@ -2,9 +2,27 @@
   "_note": "WP265 (임시): 게임 공지 원본 — 앱 업데이트 없이 PM이 추가·수정. id는 바꾸지 말 것(읽음 기록 기준). at = KST 날짜(최신순), pin = 맨 위 고정, minVersion / maxVersion = 그 버전 이상 / 이하 앱에만, until = 그날까지, update = 팝업 버튼 [업데이트]·[나중에]. 언어 없으면 en → ko.",
   "notices": [
     {
+      "id": "v1.0.12",
+      "at": "2026-11-14",
+      "pin": true,
+      "version": "1.0.12",
+      "title": {
+        "ko": "1.0.12 업데이트: 대련 상금이 생겼어요!",
+        "en": "1.0.12 Update: Duel prizes are here!",
+        "ja": "1.0.12アップデート：対戦に賞金登場！",
+        "zh": "1.0.12 更新：比武獎金登場！"
+      },
+      "body": {
+        "ko": "대장장이님, 안녕하세요! 버전 1.0.12 업데이트 내용이에요.\n\n▶ 대련 상금\n· 대련에서 이기면 상금 골드를 받아요!\n· 방어에 성공해도 상금이 모여요. 다음 접속 때 한꺼번에 받아 가세요~\n\n▶ 작위 축하\n· 작위가 오르면 축하 폭죽이 펑!\n\n▶ 그 밖에\n· 랭킹 화면이 더 빨리 열려요.\n· 소리가 끊기던 문제와 작위 표시가 서로 다르던 문제를 고쳤어요.\n\n오늘도 신나게 두드려 봐요~",
+        "en": "Hello, Smith! Here's what's new in version 1.0.12.\n\n▶ Duel prizes\n· Win duels to earn gold prizes!\n· Successful defenses pay out too. Collect it all on your next visit~\n\n▶ Title celebrations\n· Fireworks go off when your title rises!\n\n▶ Also\n· The ranking screen opens faster.\n· Fixed audio dropouts and mismatched title displays.\n\nKeep hammering!",
+        "ja": "鍛冶屋さん、こんにちは！バージョン1.0.12のアップデート内容だよ。\n\n▶ 対戦の賞金\n・対戦に勝つと賞金ゴールドがもらえるよ！\n・防衛に成功しても賞金がたまるよ。次のログインでまとめて受け取ってね〜\n\n▶ 爵位のお祝い\n・爵位が上がると祝いの花火がドーン！\n\n▶ そのほか\n・ランキング画面が速く開くようになったよ。\n・音切れと爵位表示のズレを直したよ。\n\n今日もガンガン叩こう〜",
+        "zh": "鐵匠您好！以下是 1.0.12 版的更新內容。\n\n▶ 比武獎金\n・比武獲勝就能拿到獎金金幣！\n・防守成功也會累積獎金，下次登入時一次領取～\n\n▶ 爵位慶祝\n・爵位提升時會放慶祝煙火！\n\n▶ 其他\n・排行榜畫面開得更快了。\n・修正了聲音中斷與爵位顯示不一致的問題。\n\n今天也努力敲打吧～"
+      }
+    },
+    {
       "id": "v1.0.11",
       "at": "2026-11-12",
-      "pin": true,
+      "pin": false,
       "version": "1.0.11",
       "title": {
         "ko": "1.0.11 업데이트: 대련(PvP)이 열렸어요!",
