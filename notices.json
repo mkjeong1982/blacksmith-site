@@ -2,9 +2,27 @@
   "_note": "WP265 (임시): 게임 공지 원본 — 앱 업데이트 없이 PM이 추가·수정. id는 바꾸지 말 것(읽음 기록 기준). at = KST 날짜(최신순), pin = 맨 위 고정, minVersion / maxVersion = 그 버전 이상 / 이하 앱에만, until = 그날까지, update = 팝업 버튼 [업데이트]·[나중에]. 언어 없으면 en → ko.",
   "notices": [
     {
+      "id": "v1.0.16",
+      "at": "2026-11-18",
+      "pin": true,
+      "version": "1.0.16",
+      "title": {
+        "ko": "1.0.16 업데이트: 대련 기술 컷인 & 장비 랭킹!",
+        "en": "1.0.16 Update: Skill cut-ins & gear rankings!",
+        "ja": "1.0.16アップデート：技カットインと装備ランキング！",
+        "zh": "1.0.16 更新：技能特寫與裝備排行！"
+      },
+      "body": {
+        "ko": "대장장이님, 안녕하세요! 버전 1.0.14~1.0.16 업데이트 내용이에요.\n\n▶ 더 화끈해진 대련\n· 특수 기술이 터지면 얼굴 클로즈업 컷인 띠가 쫙!\n· 기술 효과 그림과 효과음이 더 크고 묵직해졌어요.\n· 레어 세트를 맞추면 대련 전용 기술이 발현돼요. 세트 장비는 반짝반짝~\n· 레어 장비 상세에서 대련 효과를 수치로 확인할 수 있어요.\n· 팀이 없는 대장장이에게도 대련 신청이 돼요!\n\n▶ 랭킹\n· 대장장이 랭킹에 [장비] 탭이 생겼어요. 최고 장비로 겨뤄 봐요!\n· 100명씩 넘겨 보고, 내 줄을 누르면 내 순위로 바로 가요.\n· 대련 랭킹에도 국기가 표시돼요.\n\n▶ 그 밖에\n· 모험가 작위 특전에 '부상 회복 단축'이 추가됐어요.\n· 숙소에 새 직원이 오면 서로 인사를 나눠요.\n· 하단 탭과 대장간 필터가 더 깔끔해졌어요.\n· 기능 개선 및 버그 수정\n\n오늘도 신나게 두드려 봐요~",
+        "en": "Hello, Smith! Here's what's new in versions 1.0.14–1.0.16.\n\n▶ Hotter duels\n· Special skills now trigger close-up cut-in banners!\n· Bigger skill effects and heavier sounds.\n· Complete a rare set to unlock its duel skill. Set gear sparkles~\n· Rare gear details now show duel effects in numbers.\n· Challenge smiths even if they have no team!\n\n▶ Rankings\n· New [Gear] tab in smith rankings. Compete with your best gear!\n· Browse 100 at a time; tap your row to jump to your rank.\n· Flags now show in duel rankings too.\n\n▶ Also\n· Adventurer title perks now include faster injury recovery.\n· New lodge staff greet everyone when they arrive.\n· Cleaner bottom tabs and forge filters.\n· Improvements and bug fixes\n\nKeep hammering!",
+        "ja": "鍛冶屋さん、こんにちは！バージョン1.0.14から1.0.16のアップデート内容だよ。\n\n▶ もっと熱い対戦\n・必殺技が出ると顔アップのカットイン帯がバーン！\n・技のエフェクトと効果音がもっと大きく重厚に。\n・レアセットをそろえると対戦専用の技が発動！セット装備はキラキラ〜\n・レア装備の詳細で対戦効果を数値で確認できるよ。\n・チームがない鍛冶屋にも対戦を申し込めるよ！\n\n▶ ランキング\n・鍛冶屋ランキングに「装備」タブが登場。最強装備で勝負！\n・100人ずつめくれて、自分の行をタップで自分の順位へ。\n・対戦ランキングにも国旗が出るよ。\n\n▶ そのほか\n・冒険者の爵位特典に「ケガ回復短縮」を追加。\n・宿舎に新しい仲間が来るとみんなであいさつ。\n・下のタブと鍛冶場のフィルターがすっきり。\n・いろいろ直して使いやすくしたよ\n\n今日もガンガン叩こう〜",
+        "zh": "鐵匠您好！以下是版本 1.0.14～1.0.16 的更新內容。\n\n▶ 更熱血的比武\n・發動特殊技能時，臉部特寫登場！\n・技能特效與音效更大、更厚重。\n・集滿稀有套裝即可發動比武專屬技能，套裝裝備閃閃發光～\n・稀有裝備詳情可查看比武效果數值。\n・沒有隊伍的鐵匠也能申請比武！\n\n▶ 排行榜\n・鐵匠排行新增「裝備」分頁，用最強裝備一較高下！\n・每次瀏覽 100 名，點自己那列可直接跳到自己的名次。\n・比武排行也會顯示國旗。\n\n▶ 其他\n・冒險者爵位特權新增「縮短傷勢恢復」。\n・宿舍來了新夥伴時會互相打招呼。\n・下方分頁與鍛造分類更清爽。\n・功能改善與錯誤修正\n\n今天也一起敲敲打打吧～"
+      }
+    },
+    {
       "id": "v1.0.13",
       "at": "2026-11-15",
-      "pin": true,
+      "pin": false,
       "version": "1.0.13",
       "title": {
         "ko": "1.0.13 업데이트: 대련이 확 달라졌어요!",
