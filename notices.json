@@ -2,9 +2,26 @@
   "_note": "WP265 (임시): 게임 공지 원본 — 앱 업데이트 없이 PM이 추가·수정. id는 바꾸지 말 것(읽음 기록 기준). at = KST 날짜(최신순), pin = 맨 위 고정, minVersion / maxVersion = 그 버전 이상 / 이하 앱에만, until = 그날까지, update = 팝업 버튼 [업데이트]·[나중에]. 언어 없으면 en → ko.",
   "notices": [
     {
+      "id": "v1.0.17",
+      "at": "2026-11-19",
+      "pin": true,
+      "version": "1.0.17",
+      "title": {
+        "ko": "1.0.17 업데이트: 대련 MVP & 손님 중단!",
+        "en": "1.0.17 Update: Duel MVP & customer pause!",
+        "ja": "1.0.17アップデート：対戦MVPと客止め！",
+        "zh": "1.0.17 更新：比武MVP與暫停接客！"
+      },
+      "body": {
+        "ko": "대장장이님, 안녕하세요! 버전 1.0.17 업데이트 내용이에요.\n\n▶ 대련\n· 대련 MVP: 이긴 팀에서 가장 활약한 모험가에게 경험치·기운 보너스!\n· 대련 [분석]: 승패 이유와 다음 작전 조언을 알려 줘요.\n· 쪽지함이 받은 쪽지/보낸 쪽지를 따로 볼 수 있고, 삭제와 대련 신청 취소도 돼요.\n\n▶ 대장간\n· [레어] 탭이 생겼어요.\n· 레시피·장비 상세에서 대련 효과와 세트 정보를 볼 수 있어요.\n· 손님 중단/재개: 잠시 문 닫고 정비해요. 가게 문에 간판이 걸려요!\n· 지치면 대장장이가 침대에서 푹 자요. 회복도 더 빨라요.\n\n▶ 그 밖에\n· 화면 반응 속도와 메모리 사용이 좋아졌어요.\n· 기능 개선 및 버그 수정\n\n오늘도 신나게 두드려 봐요~",
+        "en": "Hello, Smith! Here's what's new in version 1.0.17.\n\n▶ Duels\n· Duel MVP: the winning team's star gets bonus EXP and energy!\n· Duel [Analysis]: why you won or lost, plus tips for next time.\n· Inbox now has received/sent tabs, delete, and duel request cancel.\n\n▶ Forge\n· New [Rare] tab.\n· Recipe and gear details show duel effects and set info.\n· Pause/resume customers: close up for a break. A sign hangs on the door!\n· A tired smith now naps in bed and recovers faster.\n\n▶ Also\n· Faster screens and lower memory use.\n· Improvements and bug fixes\n\nKeep hammering!",
+        "ja": "鍛冶屋さん、こんにちは！バージョン1.0.17のアップデート内容だよ。\n\n▶ 対戦\n・対戦MVP：勝ったチームのMVPに経験値・元気ボーナス！\n・対戦のふりかえり：勝敗の理由と次の作戦アドバイス。\n・メッセージ箱が受信と送信に分かれて、削除と対戦申し込みの取り消しもできるよ。\n\n▶ 鍛冶場\n・「レア」タブが登場。\n・レシピ・装備の詳細で対戦効果とセット情報が見られるよ。\n・客止めと再開：少しお店を閉めてひと休み。ドアに札がかかるよ！\n・疲れた鍛冶屋はベッドでぐっすり。回復も速いよ。\n\n▶ そのほか\n・画面の反応速度とメモリがよくなったよ。\n・いろいろ直して使いやすくしたよ\n\n今日もガンガン叩こう〜",
+        "zh": "鐵匠您好！以下是版本 1.0.17 的更新內容。\n\n▶ 比武\n・比武MVP：獲勝隊伍表現最好的冒險者獲得經驗與體力獎勵！\n・比武回顧：告訴你勝敗原因與下次戰術建議。\n・信箱分為收件與寄件，也能刪除與取消比武申請。\n\n▶ 鍛造\n・新增「稀有」分頁。\n・配方與裝備詳情可查看比武效果與套裝資訊。\n・暫停與恢復接客：關店休息一下，門上會掛牌子！\n・累了的鐵匠會在床上好好睡一覺，恢復更快。\n\n▶ 其他\n・畫面反應速度與記憶體優化。\n・功能改善與錯誤修正\n\n今天也一起敲敲打打吧～"
+      }
+    },
+    {
       "id": "v1.0.16",
       "at": "2026-11-18",
-      "pin": true,
       "version": "1.0.16",
       "title": {
         "ko": "1.0.16 업데이트: 대련 기술 컷인 & 장비 랭킹!",
@@ -22,7 +39,6 @@
     {
       "id": "v1.0.13",
       "at": "2026-11-15",
-      "pin": false,
       "version": "1.0.13",
       "title": {
         "ko": "1.0.13 업데이트: 대련이 확 달라졌어요!",
@@ -40,7 +56,6 @@
     {
       "id": "v1.0.12",
       "at": "2026-11-14",
-      "pin": false,
       "version": "1.0.12",
       "title": {
         "ko": "1.0.12 업데이트: 대련 상금이 생겼어요!",
@@ -58,7 +73,6 @@
     {
       "id": "v1.0.11",
       "at": "2026-11-12",
-      "pin": false,
       "version": "1.0.11",
       "title": {
         "ko": "1.0.11 업데이트: 대련(PvP)이 열렸어요!",
