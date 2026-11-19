@@ -2,9 +2,29 @@
   "_note": "WP265 (임시): 게임 공지 원본 — 앱 업데이트 없이 PM이 추가·수정. id는 바꾸지 말 것(읽음 기록 기준). at = KST 날짜(최신순), pin = 맨 위 고정, minVersion / maxVersion = 그 버전 이상 / 이하 앱에만, until = 그날까지, update = 팝업 버튼 [업데이트]·[나중에]. 언어 없으면 en → ko.",
   "notices": [
     {
-      "id": "v1.0.17",
+      "id": "v1.0.19",
       "at": "2026-11-19",
       "pin": true,
+      "version": "1.0.19",
+      "minVersion": "1.0.19",
+      "image": "notice-pvp-season",
+      "action": "pvp",
+      "title": {
+        "ko": "대련 시즌 개막!",
+        "en": "Duel Season is here!",
+        "ja": "対戦シーズン、スタート！",
+        "zh": "比武賽季開幕！"
+      },
+      "body": {
+        "ko": "대장장이님, 드디어 대련 시즌이 열렸어요!\n\n· 숙소 Lv.3부터 대련 참가! 모자란 자리는 용병이 채워 줘요.\n· 매월 1일 새 시즌! 순위에 따라 크리스탈·골드 보상을 받아요.\n· [장비] 랭킹 장인 칭호 — 강화 비용이 할인돼요.\n· 매일 대련 미션 1개, 첫 대련은 상금 2배!\n· 기능 개선 및 버그 수정\n\n이번 시즌 챔피언은 바로 당신!",
+        "en": "Smith, Duel Season has finally begun!\n\n· Join duels from Lodge Lv.3! Mercenaries fill empty slots.\n· New season every 1st of the month — rank rewards in crystals and gold.\n· [Gear] ranking artisan titles — discounts on enhancing.\n· One daily duel mission, and double prize on your first duel!\n· Improvements and bug fixes\n\nThis season's champion could be you!",
+        "ja": "鍛冶屋さん、ついに対戦シーズンがスタート！\n\n・宿舎Lv.3から対戦に参加！足りない枠は助っ人が埋めてくれるよ。\n・毎月1日に新シーズン！順位でクリスタル・ゴールド報酬！\n・[装備]ランキングの職人称号 — 強化費用が割引に。\n・毎日の対戦ミッション1つ、初対戦は賞金2倍！\n・いろいろ直して使いやすくしたよ\n\n今シーズンのチャンピオンはあなたかも！",
+        "zh": "鐵匠大人，比武賽季終於開幕啦！\n\n· 宿舍 Lv.3 起即可參加比武！空位由助手補上。\n· 每月 1 日開啟新賽季，依排名獲得水晶・金幣獎勵！\n· [裝備] 排行榜工匠稱號 — 強化費用打折。\n· 每日比武任務 1 個，首場比武獎金 2 倍！\n· 功能改善與錯誤修正\n\n本賽季第一名就是你！"
+      }
+    },
+    {
+      "id": "v1.0.17",
+      "at": "2026-11-19",
       "version": "1.0.17",
       "title": {
         "ko": "1.0.17 업데이트: 대련 MVP & 손님 중단!",
