@@ -2,9 +2,29 @@
   "_note": "WP265 (임시): 게임 공지 원본 — 앱 업데이트 없이 PM이 추가·수정. id는 바꾸지 말 것(읽음 기록 기준). at = KST 날짜(최신순), pin = 맨 위 고정, minVersion / maxVersion = 그 버전 이상 / 이하 앱에만, until = 그날까지, update = 팝업 버튼 [업데이트]·[나중에]. 언어 없으면 en → ko.",
   "notices": [
     {
+      "id": "v1.0.21",
+      "at": "2026-11-24",
+      "pin": true,
+      "version": "1.0.21",
+      "minVersion": "1.0.21",
+      "image": "notice-season-pass",
+      "action": "spass",
+      "title": {
+        "ko": "시즌 패스, 12월 1일 개막!",
+        "en": "Season Pass opens Dec 1!",
+        "ja": "シーズンパス、12月1日開幕！",
+        "zh": "賽季通行證 12 月 1 日開幕！"
+      },
+      "body": {
+        "ko": "그냥 플레이만 해도 선물이 쌓여요!\n\n· 제작·파견·대련·일일 미션 → 포인트 UP → 30단계 보상\n· 무료 보상: 누구나 골드·재료!\n· 시즌 패스를 사면\n  - 사자마자 수정 100개\n  - 단계마다 수정, 총 800개 더\n  - 전용 칭호 + 30단계 보물 상자(희귀 레시피·레어 장비!)\n· 늦게 사도 지난 단계 보상까지 한 번에!\n· 지금부터 포인트 미리 모으기 가능\n\n이번 시즌에만 받을 수 있는 한정 보상이에요!",
+        "en": "Just play and the gifts pile up!\n\n· Craft, dispatch, duel, daily missions → points → 30 tiers of rewards\n· Free rewards: gold & materials for everyone!\n· With the Season Pass\n  - 100 crystals right away\n  - 800 more crystals across the tiers\n  - Exclusive title + Tier 30 Treasure Chest (rare recipe or rare gear!)\n· Buy late and still grab every past tier at once!\n· Start banking points now\n\nThese rewards are this season only!",
+        "ja": "遊ぶだけでプレゼントがたまるよ！\n\n・製作・派遣・対戦・デイリーミッション → ポイントUP → 30段階の報酬\n・無料報酬：誰でもゴールド・素材！\n・シーズンパスを買うと\n  - 買ってすぐクリスタル100個\n  - 段階ごとにクリスタル、合計800個\n  - 専用称号＋30段階の宝箱(レアレシピ・レア装備！)\n・後から買っても過去の段階の報酬をまとめて！\n・今からポイントを先取りできるよ\n\nこのシーズンだけの限定報酬だよ！",
+        "zh": "只要玩遊戲，禮物就會越積越多！\n\n· 製作・派遣・對戰・每日任務 → 點數 UP → 30 階獎勵\n· 免費獎勵：人人都有金幣・材料！\n· 購買賽季通行證\n  - 買了立刻送 100 水晶\n  - 每階再送水晶，共 800 個\n  - 專屬稱號＋第 30 階寶箱(稀有配方・稀有裝備！)\n· 晚點買也能一次領取之前的獎勵！\n· 現在就能先累積點數\n\n本賽季限定獎勵，錯過就沒了！"
+      }
+    },
+    {
       "id": "v1.0.20",
       "at": "2026-11-21",
-      "pin": true,
       "version": "1.0.20",
       "minVersion": "1.0.20",
       "title": {
