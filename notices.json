@@ -2,9 +2,30 @@
   "_note": "WP265 (임시): 게임 공지 원본 — 앱 업데이트 없이 PM이 추가·수정. id는 바꾸지 말 것(읽음 기록 기준). at = KST 날짜(최신순), pin = 맨 위 고정, minVersion / maxVersion = 그 버전 이상 / 이하 앱에만, until = 그날까지, update = 팝업 버튼 [업데이트]·[나중에]. 언어 없으면 en → ko.",
   "notices": [
     {
+      "id": "v1.0.23",
+      "at": "2026-11-27",
+      "pin": true,
+      "version": "1.0.23",
+      "minVersion": "1.0.23",
+      "image": "notice-vault",
+      "action": "spass",
+      "title": {
+        "ko": "잊혀진 보물고 오픈 & 시즌 패스 12월 1일 개막!",
+        "en": "The Forgotten Vault opens & Season Pass starts Dec 1!",
+        "ja": "忘れられた宝物庫オープン＆シーズンパス12月1日開幕！",
+        "zh": "被遺忘的寶物庫開放＆賽季通行證 12 月 1 日開幕！"
+      },
+      "body": {
+        "ko": "대장장이님, 큰 업데이트가 왔어요!\n\n▶ 새 탐험지: 잊혀진 보물고\n· 전투력 500이면 열려요! 보물만 나오는 비밀 창고\n· 희귀 두루마리·레어 장비·유물까지 쏟아져요\n· 하루 무료 3번 + 광고 5번 + 수정으로 계속 입장\n· 요일마다 잘 나오는 보물이 달라요. 주말엔 보물 확률 UP!\n\n▶ 새 장비 24종\n· 탐험지마다 명품 장비 2종 + 보물고 전용 10종\n· 왕가 세트 7부위를 모아 보세요!\n\n▶ 시즌 패스 12월 1일 개막!\n· 그냥 플레이만 해도 30단계 보상이 쌓여요\n· 패스를 사면 수정 900개 + 전용 칭호 + 보물 상자\n· 늦게 사도 지난 단계 보상까지 한 번에!\n\n· 기능 개선 및 버그 수정",
+        "en": "Smith, a big update has arrived!\n\n▶ New area: The Forgotten Vault\n· Opens at 500 power! A secret vault full of treasure only\n· Rare scrolls, rare gear, even relics!\n· 3 free entries a day + 5 by ads + more with crystals\n· Each weekday favors different treasures. Better odds on weekends!\n\n▶ 24 new pieces of gear\n· 2 masterworks for every area + 10 vault exclusives\n· Collect all 7 pieces of the Royal Set!\n\n▶ Season Pass starts Dec 1!\n· Just play to fill 30 tiers of rewards\n· Buy the pass: 900 crystals + exclusive title + treasure chest\n· Buy late and still get every tier you passed!\n\n· Improvements and bug fixes",
+        "ja": "鍛冶屋さん、大型アップデートです！\n\n▶ 新しい探索地：忘れられた宝物庫\n· 戦闘力500で解放！お宝しか出ない秘密の倉庫\n· レア巻物・レア装備・遺物までザクザク\n· 1日無料3回＋広告5回＋クリスタルでさらに入場\n· 曜日ごとに出やすいお宝が変わるよ。週末はお宝確率UP！\n\n▶ 新装備24種\n· 探索地ごとに名品2種＋宝物庫限定10種\n· 王家セット7部位を集めよう！\n\n▶ シーズンパス12月1日開幕！\n· 遊ぶだけで30段階の報酬がたまる\n· パス購入でクリスタル900個＋専用称号＋宝箱\n· 遅れて買っても過去の段階報酬までまとめて！\n\n· 機能改善・不具合修正",
+        "zh": "鐵匠大人，大型更新來囉！\n\n▶ 新探索地：被遺忘的寶物庫\n· 戰鬥力 500 即可開啟！只出寶物的秘密倉庫\n· 稀有卷軸、稀有裝備，連遺物都有！\n· 每天免費 3 次＋廣告 5 次＋水晶可繼續進入\n· 每天容易出的寶物都不同，週末寶物機率 UP！\n\n▶ 新裝備 24 種\n· 每個探索地 2 種名品＋寶物庫限定 10 種\n· 快來收集王家套裝 7 件！\n\n▶ 賽季通行證 12 月 1 日開幕！\n· 只要玩就能累積 30 階段獎勵\n· 購買通行證：水晶 900 個＋專屬稱號＋寶箱\n· 晚買也能一次領取之前所有階段獎勵！\n\n· 功能改善與錯誤修正"
+      }
+    },
+    {
       "id": "v1.0.21",
       "at": "2026-11-24",
-      "pin": true,
+      "pin": false,
       "version": "1.0.21",
       "minVersion": "1.0.21",
       "image": "notice-season-pass",
